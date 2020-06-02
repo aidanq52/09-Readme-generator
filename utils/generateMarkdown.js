@@ -3,13 +3,13 @@ function generateMarkdown(data) {
 ${generateTitle( data.title )}
 ## Description
 ${generateDescription( data.description)}
-## Table of Contents
-1.) Installation information
-2.) Usage Information
-3.) License Information
-4.) Contribution Information
-5.) Testing Information
-6.) Github Information
+## Table of Contents \n
+1.) Installation information \n
+2.) Usage Information \n
+3.) License Information \n
+4.) Contribution Information \n
+5.) Testing Information \n 
+6.) Github Information \n 
 
 ## Installation information:
 ${generateInstallation(data.installation)}
