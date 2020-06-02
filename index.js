@@ -44,7 +44,7 @@ const questions = [
     {
         type: "input",
         message: "How many people contributed:",
-        name: "constribute"
+        name: "contribute"
     },
 
     {

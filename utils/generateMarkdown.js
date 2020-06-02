@@ -11,7 +11,7 @@ ${generateUsage(data.usage)}
 ${generateLicense(data.license)}
 
 ## Contribution Information:
-${generateContribution(data.contribution)}
+[contributors badge](img.shields.io/badge/Contributors-${generateContribution(data.contribute)}-brightgreen)
 
 ## Testing Information:
 ${generateTests(data.tests)}
@@ -19,6 +19,8 @@ ${generateTests(data.tests)}
 ${generateQuestions(data.questions)}
 `;
 }
+
+
 
 function generateTitle (title) {
   return `# ${title}
@@ -40,12 +42,14 @@ function generateUsage (usage) {
   `;
 } 
 function generateLicense (license) {
+  console.log(`${license}`)
   return `${license}
   `;
 } 
-function generateContribution (contribution) {
-  return `${contribution}
-  `;
+function generateContribution (contribute) {
+  console.log(`${contribute}`)
+  return `${contribute}`;
+
 } 
 function generateTests(tests) {
   return `${tests}
