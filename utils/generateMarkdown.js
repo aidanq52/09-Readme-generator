@@ -10,7 +10,7 @@ ${generateUsage(data.usage)}
 ## License Information:
 ${generateLicense(data.license)}
 ## Contribution Information:
-[contributors badge](https://img.shields.io/badge/Contributors-${generateContribution(data.contribute)}-brightgreen)
+![contributors badge](https://img.shields.io/badge/Contributors-${generateContribution(data.contribute)}-brightgreen)
 ## Testing Information:
 ${generateTests(data.tests)}
 ## Questions:
