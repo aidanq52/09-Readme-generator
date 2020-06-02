@@ -4,12 +4,12 @@ ${generateTitle( data.title )}
 ## Description
 ${generateDescription( data.description)}
 ## Table of Contents
-### Installation information
-### Usage Information
-### License Information
-### Contribution Information
-### Testing Information
-### Github Information
+1.) Installation information
+2.) Usage Information
+3.) License Information
+4.) Contribution Information
+5.) Testing Information
+6.) Github Information
 
 ## Installation information:
 ${generateInstallation(data.installation)}
@@ -19,15 +19,15 @@ ${generateUsage(data.usage)}
 ${generateLicense(data.license)}
 ## Contribution Information:
 ![contributors badge](https://img.shields.io/badge/Contributors-${generateContribution(data.contribute)}-brightgreen)
+
 ## Testing Information:
 ${generateTests(data.tests)}
 ## Github Information:
 ![Github Picture](${generateProfile(data.profile)})
+
 ${generateEmail(data.email)}
 `;
 }
-
-
 
 function generateTitle (title) {
   return `# ${title}
