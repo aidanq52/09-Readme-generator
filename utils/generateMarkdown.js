@@ -3,6 +3,14 @@ function generateMarkdown(data) {
 ${generateTitle( data.title )}
 ## Description
 ${generateDescription( data.description)}
+## Table of Contents
+### Installation information
+### Usage Information
+### License Information
+### Contribution Information
+### Testing Information
+### Github Information
+
 ## Installation information:
 ${generateInstallation(data.installation)}
 ## Usage Information:
@@ -13,8 +21,9 @@ ${generateLicense(data.license)}
 ![contributors badge](https://img.shields.io/badge/Contributors-${generateContribution(data.contribute)}-brightgreen)
 ## Testing Information:
 ${generateTests(data.tests)}
-## Questions:
-${generateQuestions(data.questions)}
+## Github Information:
+![Github Picture](${generateProfile(data.profile)})
+${generateEmail(data.email)}
 `;
 }
 
@@ -40,12 +49,12 @@ function generateUsage (usage) {
   `;
 } 
 function generateLicense (license) {
-  console.log(`${license}`)
+  // console.log(`${license}`)
   return `${license}
   `;
 } 
 function generateContribution (contribute) {
-  console.log(`${contribute}`)
+  // console.log(`${contribute}`)
   return `${contribute}`;
 
 } 
@@ -53,8 +62,11 @@ function generateTests(tests) {
   return `${tests}
   `;
 } 
-function generateQuestions (questions) {
-  return `${questions}
+function generateProfile (profile) {
+  return `${profile}`;
+} 
+function generateEmail(email) {
+  return `${email}
   `;
 } 
 

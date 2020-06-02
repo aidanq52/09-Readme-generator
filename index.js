@@ -16,12 +16,6 @@ const questions = [
         message: "Give a description of this project:",
         name: "description"
     },
-    
-    // {
-    //     type: "input",
-    //     message: "table of contents:",
-    //     name: "contents"
-    // },
 
     {
         type: "input",
@@ -55,8 +49,13 @@ const questions = [
 
     {
         type: "input",
-        message: "Questions to list in ReadMe:",
-        name: "question"
+        message: "Link to your Github profile picture:",
+        name: "profile"
+    },
+    {
+        type: "input",
+        message: "Enter your Github email:",
+        name: "email"
     },
     
 ];
