@@ -17,8 +17,14 @@ This project was my first dive into the wonderful world of npm, terminal, javasc
 
 ## Screenshots:
 1.) Calling the application
+
 ![Initilization](./Images/initiation.png)
+
 2.) Finishing the application
+
 ![Completion](./Images/completion.png)
+
 3.) the generated README
+
 ![Sample README](./Images/sample.png)
+
